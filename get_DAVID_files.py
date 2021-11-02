@@ -3,8 +3,6 @@ import pandas as pd
 '''script extracts gene list of up regulated and downregulated genes \
 and writes them into separate files for pathway analysis using DAVID'''
 
-
-# BPHvCaP
 def get_david_file(csv_file, out_file_name_down, out_file_name_up):
     # read in CSV file
     csv_file = pd.read_csv(csv_file)
