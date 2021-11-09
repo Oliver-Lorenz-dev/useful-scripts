@@ -2,7 +2,7 @@
 
 # s3cmd ls | grep '[A-Z]' | awk '{print $3}' to get upper case buckets
 # script creates lower case bucket and syncs it with original upper case bucket
-# deletions to be done manually
+# deletions to be done by remove_upper_buckets.py
 
 import os, sys
 
