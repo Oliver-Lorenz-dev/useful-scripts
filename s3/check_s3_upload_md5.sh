@@ -18,7 +18,7 @@ Usage: ./$(basename $0) <OPTION>...
 EOT
 }
 
-if [[ "$#" == "0" ]]; then
+if [ $# < 2 ]; then
     usage
     exit 0
 fi
