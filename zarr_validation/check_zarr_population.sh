@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this script performs a basic check to see if a zarr file is populated or not
+# this script performs a basic check to see if a zarr file is populated with calldata or not
 
 # very high level check to see if zarr has any calldata
 check_zarr_high_level () {
